@@ -89,11 +89,6 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
 ]
 
 export default config

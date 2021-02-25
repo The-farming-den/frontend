@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract TFCToken",
-        "name": "_TFC",
+        "internalType": "contract TFTToken",
+        "name": "_TFT",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_TFCPerBlock",
+        "name": "_TFTPerBlock",
         "type": "uint256"
       },
       {
@@ -154,10 +154,10 @@
   },
   {
     "inputs": [],
-    "name": "TFC",
+    "name": "TFT",
     "outputs": [
       {
-        "internalType": "contract TFCToken",
+        "internalType": "contract TFTToken",
         "name": "",
         "type": "address"
       }
@@ -168,7 +168,7 @@
   },
   {
     "inputs": [],
-    "name": "TFCPerBlock",
+    "name": "TFTPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -235,7 +235,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accTFCPerShare",
+        "name": "accTFTPerShare",
         "type": "uint256"
       },
       {
@@ -434,7 +434,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingTFC",
+    "name": "pendingTFT",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_TFCPerBlock",
+        "name": "_TFTPerBlock",
         "type": "uint256"
       }
     ],

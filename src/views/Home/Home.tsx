@@ -11,7 +11,7 @@ import TwitterCard from './components/TwitterCard'
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/TFC/3.svg');
+  background-image: url('/images/TFT/3.svg');
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -23,7 +23,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/TFC/3.svg'), url('/images/TFC/3b.png');
+    background-image: url('/images/TFT/3.svg'), url('/images/TFT/3b.png');
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;

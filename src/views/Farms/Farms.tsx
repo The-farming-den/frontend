@@ -57,7 +57,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.TFCPerBlock || 1)
+        const cakeRewardPerBlock = new BigNumber(farm.TFTPerBlock || 1)
           .times(new BigNumber(farm.poolWeight))
           .div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
@@ -95,11 +95,11 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {tokenMode
-          ? TranslateString(10002, 'Stake tokens to earn TFC')
-          : TranslateString(320, 'Stake LP tokens to earn TFC')}
+          ? TranslateString(10002, 'Stake tokens to earn TFT')
+          : TranslateString(320, 'Stake LP tokens to earn TFT')}
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback TFC')}
+        {TranslateString(10000, 'Deposit Fee will be used to buyback TFT')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
@@ -113,7 +113,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="/images/TFC/8.png" alt="illustration" width={1352} height={587} responsive />
+      <Image src="/images/TFT/8.png" alt="illustration" width={1352} height={587} responsive />
     </Page>
   )
 }

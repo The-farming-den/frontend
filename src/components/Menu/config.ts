@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.goosedefi.com/',
+        href: 'http://exchange.thefarmingden.com/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.goosedefi.com/#/pool',
+        href: 'http://exchange.thefarmingden.com/#/pool',
       },
     ],
   },
@@ -55,11 +55,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
+        href: 'https://www.coingecko.com/en/coins/the-farming-den',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
+        href: 'https://coinmarketcap.com/currencies/the-farming-den/',
       },
       {
         label: 'AstroTools',
@@ -85,7 +85,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'http://github.com/the-farming-den/',
       },
       {
         label: 'Docs',
@@ -93,7 +93,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://link.medium.com/6xZ43PAbzeb/',
       },
     ],
   },

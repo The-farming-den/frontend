@@ -70,6 +70,12 @@ const Button = styled.button`
   }
 `;
 
+const SubTitle = styled.div`
+  font-size: 26px;
+  text-align: center;
+  margin-top: 30px;
+`;
+
 const Team: React.FC = (props) => {
   return (
     <Page>
@@ -101,9 +107,11 @@ const Team: React.FC = (props) => {
           <ProfileTitle>Senior Developer</ProfileTitle>
           <ProfileName>\/\/@®®!0®</ProfileName>
         </ProfileCard>
+      </Profiles>
+      <SubTitle>Advisors</SubTitle>
+      <Profiles>
         <ProfileCard>
           <ProfileImage src="/images/profile/Garlam.jpg" />
-          <ProfileTitle>Advisor</ProfileTitle>
           <ProfileName>Garlam WON</ProfileName>
           <StyledRow>
             <Button onClick={() => window.open('https://twitter.com/garlamwon?s=21', '_target')}>

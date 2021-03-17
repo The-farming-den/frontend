@@ -40,6 +40,36 @@ const ProfileName = styled.div`
   margin-top: 10px;
 `;
 
+const StyledSocialIcon = styled.img`
+  width: 20px;
+`;
+
+const StyledRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+`;
+
+const Button = styled.button`
+  border: none;
+  padding: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: none;
+  &:focus {
+    outline: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+  &:active {
+    opacity: 1;
+  }
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+`;
+
 const Team: React.FC = (props) => {
   return (
     <Page>
@@ -68,8 +98,21 @@ const Team: React.FC = (props) => {
         </ProfileCard>
         <ProfileCard>
           <ProfileImage src="/images/profile/redbull.png" />
-          <ProfileTitle>Seinor Developer</ProfileTitle>
+          <ProfileTitle>Senior Developer</ProfileTitle>
           <ProfileName>\/\/@®®!0®</ProfileName>
+        </ProfileCard>
+        <ProfileCard>
+          <ProfileImage src="/images/profile/Garlam.jpg" />
+          <ProfileTitle>Advisor</ProfileTitle>
+          <ProfileName>Garlam WON</ProfileName>
+          <StyledRow>
+            <Button onClick={() => window.open('https://twitter.com/garlamwon?s=21', '_target')}>
+              <StyledSocialIcon draggable={false} alt="Twitter" src="/images/profile/twitter.png"/>
+            </Button>
+            <Button onClick={() => window.open('https://www.linkedin.com/in/garlam/', '_target')}>
+              <StyledSocialIcon alt="Linkedin" src="/images/profile/linkedin.png"/>
+            </Button>
+          </StyledRow>
         </ProfileCard>
       </Profiles>
     </Page>

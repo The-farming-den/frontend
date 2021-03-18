@@ -1,7 +1,7 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
+  "short_name": "TFT",
+  "name": "The Farming Den",
+  "description": "The Farming Den is a project that aims to create a dual-chain AMM between Binance smart chain and Ethereum network as well as utilizing the different developed technologies in the DeFi industry.",
   "icons": [
     {
       "src": "favicon.ico",

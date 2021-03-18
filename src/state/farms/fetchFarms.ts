@@ -90,7 +90,7 @@ const fetchFarms = async () => {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP))
         }
       }
-      const TFTPerBlock = new BigNumber(10).pow(18).times(new BigNumber(4));
+      const TFTPerBlock = new BigNumber(10).pow(18).times(new BigNumber(3));
       const [info, totalAllocPoint, poolInfo] = await multicall(masterchefABI, [
         {
           address: getMasterChefAddress(),

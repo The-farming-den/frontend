@@ -217,7 +217,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'TFT',
     lpAddresses: {
       97: '',
-      56: '0x051Ea4862F8665B4677092E92c82450620837121', // TFT-BUSD LP
+      56: '0x6273624e84A95818af725007E1cA1C0F0c6C7190', // TFT-BUSD LP
     },
     tokenSymbol: 'TFT',
     tokenAddresses: {

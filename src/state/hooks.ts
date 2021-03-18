@@ -99,9 +99,7 @@ export const useTotalValue = (): BigNumber => {
       } else {
         val = farm.lpTotalInQuoteToken
       }
-      if (farm.lpSymbol !== 'TFT') {
-        value = value.plus(val)
-      }
+      value = value.plus(val)
     }
   }
   return value
